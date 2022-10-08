@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- Representa archivos en el subdirectorio cache del almacenamiento interno del la aplicación. Se obtinene el valor como si se usara this.cacheDir -->
+    <cache-path
+        name="shared_images"
+        path="images/"/>
+
+    <!-- Representa archivos en la raíz del almacenamiento externo. Se obtiene el valor como si se usara Environment.getExternalStorageDirectory() -->
+    <external-path
+        name="saved_images"
+        path="MyImagesToShare/"/>
+</paths>
