@@ -59,8 +59,6 @@ class Share : AppCompatActivity() {
                     startActivity(Intent.createChooser(shareIntent, "Compartir via:"))
                 }
 
-
-
             }
 
         }
